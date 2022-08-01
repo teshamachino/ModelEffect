@@ -1,0 +1,22 @@
+Package: modeleffect
+Title: Model Effect
+Description: Plots, tables and metrics to determine a model's effectiveness.
+Version: 0.1
+Depends: R (>= 3.1.0)
+Imports:
+   dplyr (>= 1.0.2),
+   tidyr (>= 1.1.2),
+   magrittr (>= 1.5),
+   tidyselect (>= 1.1.0),
+   rlang (>= 0.4.9),
+   stats (>= 3.6.1),
+   ResourceSelection (>= 0.3.4),
+   pROC (>= 1.15.0),
+   MLmetrics (>= 1.1.1),
+   ROCR (>= 1.0.7)
+Date: 2021-03-24
+Author: Mathew Arndt <mathewarndt@gmail.com>
+Maintainer: Mathew Arndt <mathewarndt@gmail.com>
+License: GPL-3
+Encoding: UTF-8
+RoxygenNote: 7.1.1
